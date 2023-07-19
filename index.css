@@ -31,12 +31,15 @@ body {
 
 /* button container */
 #button-container {
-
     justify-content: center;
     display: flex;
-    margin-top: 500px;
-
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 70%;
+    left: 50%;
+    margin-bottom: 0px;
 }
+
 
 button {
     padding: 5px;
