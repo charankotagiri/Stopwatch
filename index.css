@@ -1,0 +1,67 @@
+body {
+    background: linear-gradient(90deg, #000428, #004e92);
+}
+
+/* conatiner for timer*/
+#container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: #000428;
+    height: 150px;
+    width: 150px;
+    border-radius: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    animation-name: fade;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    padding: 10px;
+}
+
+#timer {
+    color: white;
+    font-size: 30px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+}
+
+/* button container */
+#button-container {
+
+    justify-content: center;
+    display: flex;
+    margin-top: 500px;
+
+}
+
+button {
+    padding: 5px;
+    margin: 5px;
+    width: 100px;
+    border-radius: 10px;
+    height: 40px;
+    outline: none;
+    border: none;
+    font-size: 18px;
+    font-family: sans-serif;
+    cursor: pointer;
+}
+
+
+/* 
+ keyframes for box-shadow animation
+*/
+
+@keyframes fade {
+    0% {
+        box-shadow: 0 0 20px#fd746c;
+    }
+
+    100% {
+        box-shadow: 0 0 20px #403A3E;
+    }
+}
